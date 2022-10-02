@@ -10,12 +10,35 @@ body {
 }
 
 header {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 800;
 }
 header .badge {
+  font-size: 1rem;
+  margin-inline: 5px;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(219deg, 85%, 26%);
   padding: 0.25rem 0.75rem;
   border-radius: 5px;
+}
+
+.container {
+  margin: 1.5rem 1em;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  -webkit-margin-after: 2rem;
+          margin-block-end: 2rem;
+}
+
+.notification {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  background-color: hsl(210deg, 60%, 98%);
+}
+.notification .person {
+  font-weight: 800;
 }/*# sourceMappingURL=style.css.map */
