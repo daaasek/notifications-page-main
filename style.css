@@ -33,12 +33,23 @@ header .badge {
   -webkit-margin-after: 2rem;
           margin-block-end: 2rem;
 }
+.top-section .mark-button {
+  color: hsl(219deg, 85%, 26%);
+}
 
 .notification {
   display: grid;
   grid-template-columns: 1fr 5fr;
   background-color: hsl(210deg, 60%, 98%);
+  padding: 1rem;
+  border-radius: 5px;
 }
-.notification .person {
+.notification .content .person {
   font-weight: 800;
+}
+.notification .content .action {
+  color: hsl(219deg, 12%, 42%);
+}
+.notification .content .timestamp {
+  color: hsl(219deg, 14%, 63%);
 }/*# sourceMappingURL=style.css.map */

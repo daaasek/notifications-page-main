@@ -48,13 +48,27 @@ header{
     justify-content: space-between;
     align-items: flex-end;
     margin-block-end: 2rem;
+    .mark-button{
+        color: $blue;
+    }
 }
 .notification{
     display: grid;
     grid-template-columns: 1fr 5fr;
     background-color: $very-light-grayish-blue;
-    .person{
+    padding: 1rem;
+    border-radius: 5px;
+    .content{
+        .person{
         font-weight: $font-bold;
+        }
+        .action{
+            color: $dark-grayish-blue;
+        }
+        .timestamp{
+            color: $grayish-blue;
+        }
     }
+    
 }
 
