@@ -1,0 +1,43 @@
+////colors
+
+//primary
+$red:hsl(1, 90%, 64%);
+$blue: hsl(219, 85%, 26%);
+
+//neutral
+$white: hsl(0, 0%, 100%);
+$very-light-grayish-blue: hsl(210, 60%, 98%);
+$light-grayish-blue-1: hsl(211, 68%, 94%);
+$light-grayish-blue-2: hsl(205, 33%, 90%);
+$grayish-blue: hsl(219, 14%, 63%);
+$dark-grayish-blue: hsl(219, 12%, 42%);
+$very-dark-blue: hsl(224, 21%, 14%);
+
+//////////
+
+
+$font-normal:500;
+$font-bold:800;
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: $font-normal;
+}
+header{
+    font-size: 1.2rem;
+    font-weight: $font-bold;
+    .badge{
+        color: $white;
+        background-color: $blue;
+        padding: .25rem .75rem;
+        border-radius: 5px;
+    }
+}
+
+
+
